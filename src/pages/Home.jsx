@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from '../components/Header';
 
-const Home = () => {
-  retun (
-    <div><h1>React Shop</h1></div>
+const home = () => {
+  return (
+    <Header />
   )
 }
 
-export default Home
+export default home
